@@ -4,7 +4,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## File Structure
 
-<script src="https://gist.github.com/shijinnath/d87454f31ed2f96c0316ab762feffc19.js"></script>
+[gist]https://gist.github.com/shijinnath/d87454f31ed2f96c0316ab762feffc19[/gist]
+
 
 ## Development server
 
