@@ -3,14 +3,14 @@ import { CommonModule } from '@angular/common';
 
 import { StorefrontRoutingModule } from './storefront-routing.module';
 import { StorefrontComponent } from './storefront.component';
-import { DividerModule } from 'primeng/divider';
+import { RippleModule } from 'primeng/ripple';
 
 @NgModule({
   declarations: [StorefrontComponent],
   imports: [
     CommonModule,
     StorefrontRoutingModule,
-    DividerModule,
+    RippleModule,
   ]
 })
 export class StorefrontModule { }

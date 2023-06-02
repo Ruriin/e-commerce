@@ -8,7 +8,8 @@ import { FooterComponent } from 'src/app/shared/components/footer/footer.compone
 import { DividerModule } from 'primeng/divider';
 import { InputTextModule } from 'primeng/inputtext';
 import { ButtonModule } from 'primeng/button';
-
+import { RippleModule } from 'primeng/ripple';
+import { StyleClassModule } from 'primeng/styleclass';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,9 @@ import { ButtonModule } from 'primeng/button';
     DividerModule,
     AppRoutingModule,
     InputTextModule,
-    ButtonModule
+    ButtonModule,
+    RippleModule,
+    StyleClassModule,
   ],
   exports: [LayoutComponent]
 })

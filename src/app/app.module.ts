@@ -4,9 +4,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { RippleModule } from 'primeng/ripple';
 import { LayoutModule } from './components/layout/layout.module';
-import { StyleClassModule } from 'primeng/styleclass';
 
 @NgModule({
   declarations: [
@@ -16,9 +14,7 @@ import { StyleClassModule } from 'primeng/styleclass';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    RippleModule,
     LayoutModule,
-    StyleClassModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
