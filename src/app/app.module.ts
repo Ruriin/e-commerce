@@ -7,9 +7,6 @@ import { AppComponent } from './app.component';
 import { RippleModule } from 'primeng/ripple';
 import { LayoutModule } from './components/layout/layout.module';
 import { StyleClassModule } from 'primeng/styleclass';
-import { LayoutComponent } from './components/layout/layout.component';
-import { NavbarComponent } from './shared/components/navbar/navbar.component';
-import { FooterComponent } from './shared/components/footer/footer.component';
 
 @NgModule({
   declarations: [
