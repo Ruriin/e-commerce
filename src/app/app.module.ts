@@ -5,22 +5,18 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { RippleModule } from 'primeng/ripple';
-import { LayoutComponent } from './components/layout/layout.component';
-import { NavbarComponent } from './shared/components/navbar/navbar.component';
-import { FooterComponent } from './shared/components/footer/footer.component';
+import { LayoutModule } from './components/layout/layout.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LayoutComponent,
-    NavbarComponent,
-    FooterComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     RippleModule,
+    LayoutModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
