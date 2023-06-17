@@ -2,8 +2,8 @@
     class="surface-900 px-4 lg:px-8 py-3 lg:py-3 flex flex-column sm:flex-row w-full justify-content-between align-items-center">
     <span class="text-0">Sign Up for 15% off your first order</span><a tabindex="0"
         class="cursor-pointer h-full inline-flex align-items-center mt-3 sm:mt-0 md:py-0"><img
-            src="https://blocks.primeng.org/assets/images/blocks/ecommerce/storefront/storefront-1-19.png" alt="Flag" class="mr-2"><span
-            class="text-0">EUR</span></a>
+            src="https://blocks.primeng.org/assets/images/blocks/ecommerce/storefront/storefront-1-19.png" alt="Flag"
+            class="mr-2"><span class="text-0">EUR</span></a>
 </div>
 <div class="surface-overlay px-3 sm:px-7 flex flex-wrap align-items-stretch justify-content-between relative">
     <a pRipple pStyleClass="#nav-2" enterClass="hidden" leaveToClass="hidden"
@@ -104,8 +104,8 @@
             </li>
         </ul>
     </div>
-    <div class="flex align-items-center justify-content-center py-3"><img src="https://blocks.primeng.org/assets/images/blocks/logos/peak-700.svg"
-            alt="Image" height="40"></div>
+    <div class="flex align-items-center justify-content-center py-3"><img
+            src="https://blocks.primeng.org/assets/images/blocks/logos/peak-700.svg" alt="Image" height="40"></div>
     <div class="lg:flex w-full lg:w-auto hidden py-3 lg:py-0">
         <ul class="list-none p-0 m-0 flex w-full" style="min-height: 30px;">
             <li class="flex flex-auto lg:flex-initial justify-content-center"><a pRipple
@@ -116,14 +116,57 @@
                     class="p-ripple p-element text-900 font-medium inline-flex align-items-center cursor-pointer lg:px-3 text-700 hover:text-primary"><i
                         class="pi pi-heart text-xl"></i><span class="hidden">Favorites</span><span class="p-ink"
                         style="height: 72px; width: 72px; top: 7px; left: 2.01562px;"></span></a></li>
-            <li class="flex flex-auto lg:flex-initial justify-content-center"><a pRipple
+            <li class="flex flex-auto lg:flex-initial justify-content-center">
+
+
+                <a pRipple pStyleClass="@next" enterClass="hidden" enterActiveClass="scalein" leaveToClass="hidden"
+                    leaveActiveClass="fadeout"
                     class="p-ripple p-element text-900 font-medium inline-flex align-items-center cursor-pointer lg:px-3 text-700 hover:text-primary"><i
                         class="pi pi-user text-xl"></i><span class="hidden">Sign In</span><span class="p-ink"
-                        style="height: 72px; width: 72px; top: 3px; left: -20.9844px;"></span></a></li>
-            <li class="flex flex-auto lg:flex-initial justify-content-center"><a pRipple
-                    class="p-ripple p-element text-900 font-medium inline-flex align-items-center cursor-pointer lg:pl-3 pr-3 text-700 hover:text-primary"><i
-                        pbadge="" class="pi pi-shopping-cart text-xl"></i><span class="hidden">Cart</span><span
-                        class="p-ink" style="height: 72px; width: 72px; top: 0px; left: -6.98438px;"></span></a></li>
+                        style="height: 72px; width: 72px; top: 3px; left: -20.9844px;"></span></a>
+                <div
+                    class="border-round surface-overlay p-3 shadow-2 absolute right-0 top-100 z-1 w-15rem origin-top hidden">
+                    <ul class="list-none p-0 m-0">
+                        <li><a
+                                class="cursor-pointer text-700 hover:text-900 hover:surface-100 border-round flex align-items-center px-3 py-2"><i
+                                    class="pi pi-fw pi-box text-lg mr-2"></i><span>Orders</span></a></li>
+                        <li><a
+                                class="cursor-pointer text-700 hover:text-900 hover:surface-100 border-round flex align-items-center px-3 py-2"><i
+                                    class="pi pi-fw pi-heart text-lg mr-2"></i><span>Favorites</span></a></li>
+                        <li><a
+                                class="cursor-pointer text-700 hover:text-900 hover:surface-100 border-round flex align-items-center px-3 py-2"><i
+                                    class="pi pi-fw pi-star text-lg mr-2"></i><span>Reviews</span></a></li>
+                        <li><a
+                                class="cursor-pointer text-700 hover:text-900 hover:surface-100 border-round flex align-items-center px-3 py-2"><i
+                                    class="pi pi-fw pi-sign-out text-lg mr-2"></i><span>Sign Out</span></a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="flex flex-auto lg:flex-initial justify-content-center">
+
+                <a pRipple pStyleClass="@next" enterClass="hidden" enterActiveClass="scalein" leaveToClass="hidden"
+                    leaveActiveClass="fadeout"
+                    class="p-ripple p-element text-900 font-medium inline-flex align-items-center cursor-pointer px-1 lg:px-3 hover:text-primary"><i
+                        pbadge="" class="p-element pi pi-shopping-cart text-xl p-overlay-badge"><span id="pr_id_9_badge"
+                            class="p-badge p-component p-badge-dot"></span></i><span class="hidden">My Cart</span><span
+                        class="p-ink" style="height: 79px; width: 79px; top: -11.5px; left: -7.5px;"></span></a>
+                <div
+                    class="border-round surface-overlay p-4 shadow-2 absolute right-0 top-100 z-1 w-20rem origin-top hidden">
+                    <span class="text-900 font-medium mb-3 block">My Cart (1 Item)</span>
+                    <div class="flex align-items-center border-bottom-1 surface-border pb-3">
+                        <img src="https://blocks.primeng.org/assets/images/blocks/ecommerce/shoppingcart/shopping-cart-2-2.png"
+                            class="w-4rem flex-shrink-0 shadow-1">
+                        <div class="flex flex-column pl-3"><span class="text-900 font-medium mb-2">Prime
+                                Watch</span><span class="text-600 mb-2">Standard Size</span><span
+                                class="text-primary font-bold">$50.00</span></div>
+                    </div>
+                    <div class="flex pt-3"><button pbutton="" pripple=""
+                            class="p-element p-ripple p-button-outlined mr-2 p-button p-component">View Cart<span
+                                class="p-ink"></span></button><button pbutton="" pripple=""
+                            class="p-element p-ripple ml-2 p-button p-component">Purchase<span
+                                class="p-ink"></span></button></div>
+                </div>
+            </li>
         </ul>
     </div>
 </div>
